@@ -38,6 +38,7 @@ const checkWin = () => {
       document
         .querySelector(".imgBox")
         .getElementsByTagName("img")[0].style.width = "200px";
+      gameover.play();
     }
   });
 };
